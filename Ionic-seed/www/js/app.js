@@ -18,7 +18,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'firebase'])
 
     // setup an abstract state for the tabs directive
     .state('tab', {
-      url: "/tab",
+      url: '/tab',
       abstract: true,
       templateUrl: "templates/tabs.html"
     })
